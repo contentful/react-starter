@@ -103,17 +103,16 @@ function App() {
             React Contentful Homepage Starter
           </h1>
           <p>
-            Clone, deploy, edit, and customize this starter to build your own
-            homepage
+            Clone, edit, and customize this starter to build your own homepage
           </p>
-          <div>
-            <button>
+          <div className="buttons">
+            <button className="button-large">
               <a href="https://github.com/gatsbyjs/gatsby-starter-contentful-homepage#deploy-your-site">
-                Deploy Now
+                Read more
               </a>
             </button>
 
-            <button className="button-secondary">
+            <button className="button-large button-secondary">
               <a href="https://github.com/gatsbyjs/gatsby-starter-contentful-homepage">
                 GitHub
               </a>

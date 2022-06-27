@@ -69,11 +69,18 @@ button > a {
   font-weight: normal;
 }
 
-button.secondary-button {
+button.button-secondary {
   background: var(--gray-200);
   color: var(--gray-900);
   background: var(--color-white);
   border-color: var(--gray-300);
+}
+
+button.button-large {
+  font-weight: var(--font-size-xl);
+  line-height: var(--line-height-xl);
+  min-height: 48px;
+  padding: var(--spacing-xs) var(--spacing-m);
 }
 
 h1,
