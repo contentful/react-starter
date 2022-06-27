@@ -1,5 +1,5 @@
-@import url("https://unpkg.com/@contentful/f36-tokens@4.0.1/dist/css/index.css");
-@import url("https://www.contentful.com/fonts.css");
+@import url('https://unpkg.com/@contentful/f36-tokens@4.0.1/dist/css/index.css');
+@import url('https://www.contentful.com/fonts.css');
 
 html {
   font-size: 100%;
@@ -19,7 +19,7 @@ main {
 
 body {
   -webkit-font-smoothing: antialiased;
-  font-family: "Avenir Next W01";
+  font-family: 'Avenir Next W01';
   margin: 0;
   color: var(--text-color);
   background: var(--bkg);

@@ -1,15 +1,15 @@
-import data from "./data";
-import { Fragment, useState } from "react";
+import data from './data'
+import { Fragment, useState } from 'react'
 
 // todo use contentful to return all the tags
 const dedup = (array) => {
   return array.filter(function (item, pos) {
-    return array.indexOf(item) === pos;
-  });
-};
+    return array.indexOf(item) === pos
+  })
+}
 
 // create unique list of tags
-const allTags = dedup(data.map((meta) => meta.tags).flat());
+const allTags = dedup(data.map((meta) => meta.tags).flat())
 
 const Painting = ({ title, description, tags, image }) => {
   return (
@@ -18,30 +18,30 @@ const Painting = ({ title, description, tags, image }) => {
       <img className="image-thumb" src={image} alt="" />
       <hr />
     </div>
-  );
-};
+  )
+}
 
 function App() {
-  const [selectedTags, setSelectedTags] = useState([]);
+  const [selectedTags, setSelectedTags] = useState([])
 
   const onTagSelected = (e) => {
-    const { name: tag, checked } = e.target;
-    const index = selectedTags.indexOf(tag);
+    const { name: tag, checked } = e.target
+    const index = selectedTags.indexOf(tag)
 
     // TODO improve 😅
     if (checked) {
       if (index === -1) {
-        selectedTags.push(tag);
+        selectedTags.push(tag)
       }
     } else {
       // if the tag is already in the array, remove it
       if (index !== -1) {
-        selectedTags.splice(index, 1);
+        selectedTags.splice(index, 1)
       }
     }
 
-    setSelectedTags(selectedTags.slice());
-  };
+    setSelectedTags(selectedTags.slice())
+  }
 
   const checkboxes = allTags.map((tag) => {
     return (
@@ -55,14 +55,14 @@ function App() {
         />
         <label htmlFor={tag}>{tag}</label>
       </Fragment>
-    );
-  });
+    )
+  })
 
   const paintings = data
     .filter((painting) => {
-      if (selectedTags.length === 0) return true;
-      const found = painting.tags.some((r) => selectedTags.includes(r));
-      return found;
+      if (selectedTags.length === 0) return true
+      const found = painting.tags.some((r) => selectedTags.includes(r))
+      return found
     })
     .map(({ title, description, tags, image }, i) => {
       return (
@@ -73,8 +73,8 @@ function App() {
           tags={tags}
           image={image}
         ></Painting>
-      );
-    });
+      )
+    })
 
   return (
     <main>
@@ -84,7 +84,7 @@ function App() {
       <h4>Heading 4</h4>
       <h5>Heading 5</h5>
       <p>
-        This file uses values sourced from the{" "}
+        This file uses values sourced from the{' '}
         <a href="https://f36.contentful.com/">Forma36 tokens</a>.
       </p>
 
@@ -126,7 +126,7 @@ function App() {
       </p>
       <div className="grid">{paintings}</div>
     </main>
-  );
+  )
 }
 
-export default App;
+export default App
