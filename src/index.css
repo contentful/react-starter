@@ -1,3 +1,4 @@
+@import url('https://unpkg.com/modern-css-reset/dist/reset.min.css');
 @import url('https://unpkg.com/@contentful/f36-tokens@4.0.1/dist/css/index.css');
 @import url('https://www.contentful.com/fonts.css');
 
@@ -85,10 +86,17 @@ button.button-large {
 
 h1,
 h2,
+h3,
+h4,
+h5 {
+  margin-bottom: var(--spacing-l);
+}
+
+h1,
+h2,
 h3 {
   font-weight: 800;
   letter-spacing: -0.02rem;
-  line-height: 1.1;
 }
 
 h1 {
@@ -113,6 +121,8 @@ h5 {
 
 p {
   font-size: var(--font-size-l);
+  line-height: var(--line-height-m);
+  margin: var(--spacing-m) 0;
 }
 
 small {
@@ -134,6 +144,23 @@ small {
 
 .hero article {
   width: 100%;
+}
+
+.hero article button:first-child {
+  margin-right: var(--spacing-m);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  grid-template-rows: repeat(auto-fit, 360px);
+  grid-auto-flow: dense;
+  grid-gap: 0.3rem;
+}
+
+.grid figure img {
+  width: 100%;
+  height: max-content;
 }
 
 .hero > img {

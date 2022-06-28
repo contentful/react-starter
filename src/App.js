@@ -13,11 +13,10 @@ const allTags = dedup(data.map((meta) => meta.tags).flat())
 
 const Painting = ({ title, description, tags, image }) => {
   return (
-    <div className="painting">
+    <figure className="painting">
       <h3>{title}</h3>
       <img className="image-thumb" src={image} alt="" />
-      <hr />
-    </div>
+    </figure>
   )
 }
 
