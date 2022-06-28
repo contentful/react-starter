@@ -153,14 +153,28 @@ small {
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-  grid-template-rows: repeat(auto-fit, 360px);
-  grid-auto-flow: dense;
-  grid-gap: 0.3rem;
+  grid-gap: var(--spacing-xs);
+}
+
+.grid figure {
+  text-align: center;
+  margin: 5px;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--gray-300);
+}
+
+.grid figure h4 {
+  margin-bottom: 0;
+}
+
+.grid figure p {
+  margin-top: 0;
 }
 
 .grid figure img {
   width: 100%;
-  height: max-content;
+  height: 350px;
+  object-fit: cover;
 }
 
 .hero > img {

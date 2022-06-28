@@ -14,8 +14,18 @@ const allTags = dedup(data.map((meta) => meta.tags).flat())
 const Painting = ({ title, description, tags, image }) => {
   return (
     <figure className="painting">
-      <h3>{title}</h3>
-      <img className="image-thumb" src={image} alt="" />
+      {/* <img className="image-thumb" src={image} alt="" /> */}
+      <img
+        className="image-thumb"
+        src={`https://picsum.photos/${(400 + Math.random() * 300) | 0}/${
+          (400 + Math.random() * 200) | 0
+        }.jpg?random=${Math.random()}`}
+        alt=""
+      />
+      <h4>{title}</h4>
+      <p>
+        <i>Vincent Van Gogh</i>
+      </p>
     </figure>
   )
 }
