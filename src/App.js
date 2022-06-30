@@ -101,6 +101,14 @@ function App() {
         This a <button>Button</button>
       </p>
 
+      <p>
+        <button className="button-large">Large button</button>
+
+        <button className="button-large button-secondary">
+          Large secondary button
+        </button>
+      </p>
+
       <section className="hero">
         <img
           src="https://images.ctfassets.net/p39nycxzit31/U3SK6xjRhpQRa9vJy8nyM/b57a359f6fed8bf3e3b8cc7af66bb896/Hero.png?w=2368&h=1776&q=50&fm=webp"
@@ -112,7 +120,7 @@ function App() {
             React Contentful Homepage Starter
           </h1>
           <p>
-            Clone, edit, and customize this starter to build your own homepage
+            Clone, edit, and customize this starter to build your own React app.
           </p>
           <div className="buttons">
             <button className="button-large">

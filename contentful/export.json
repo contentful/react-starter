@@ -1,0 +1,2405 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "id": "painting",
+        "type": "ContentType",
+        "createdAt": "2022-06-29T09:41:39.883Z",
+        "updatedAt": "2022-06-29T09:43:16.060Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2022-06-29T09:43:16.060Z",
+        "firstPublishedAt": "2022-06-29T09:41:40.228Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "Painting",
+      "description": "",
+      "fields": [
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "artist",
+          "name": "Artist",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "id": "artist",
+        "type": "ContentType",
+        "createdAt": "2022-06-29T09:43:40.044Z",
+        "updatedAt": "2022-06-29T09:43:40.387Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2022-06-29T09:43:40.387Z",
+        "firstPublishedAt": "2022-06-29T09:43:40.387Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "Artist",
+      "description": "",
+      "fields": [
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "id": "france",
+        "type": "Tag",
+        "createdAt": "2022-06-29T09:47:54.407Z",
+        "updatedAt": "2022-06-29T09:47:54.407Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "version": 1,
+        "visibility": "public"
+      },
+      "name": "France"
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "id": "pointilism",
+        "type": "Tag",
+        "createdAt": "2022-06-29T09:48:02.528Z",
+        "updatedAt": "2022-06-29T09:48:02.528Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "version": 1,
+        "visibility": "private"
+      },
+      "name": "Pointilism"
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "id": "london",
+        "type": "Tag",
+        "createdAt": "2022-06-29T09:48:32.916Z",
+        "updatedAt": "2022-06-29T09:48:32.916Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "version": 1,
+        "visibility": "private"
+      },
+      "name": "London"
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "id": "self-portrait",
+        "type": "Tag",
+        "createdAt": "2022-06-29T19:08:45.301Z",
+        "updatedAt": "2022-06-29T19:08:45.301Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "version": 1,
+        "visibility": "public"
+      },
+      "name": "Self Portrait"
+    }
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "0tnk8bakd8wv",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2022-06-29T09:41:40.292Z",
+        "createdBy": {
+          "sys": {
+            "id": "0q85kL9zVu8Vw90mCqd43K",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-06-29T09:43:16.865Z",
+        "updatedBy": {
+          "sys": {
+            "id": "0q85kL9zVu8Vw90mCqd43K",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "painting",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "name",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "image",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "artist",
+          "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "0tnk8bakd8wv",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2022-06-29T09:43:40.578Z",
+        "createdBy": {
+          "sys": {
+            "id": "0q85kL9zVu8Vw90mCqd43K",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-06-29T09:43:40.965Z",
+        "updatedBy": {
+          "sys": {
+            "id": "0q85kL9zVu8Vw90mCqd43K",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "artist",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "name",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "id": "4XUxEMR0ZJduR6fLFg0AF1",
+        "type": "Entry",
+        "createdAt": "2022-06-29T09:44:10.989Z",
+        "updatedAt": "2022-06-29T09:44:20.715Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2022-06-29T09:44:20.715Z",
+        "firstPublishedAt": "2022-06-29T09:44:20.715Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "artist"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "George Seurat"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "id": "5CHMsK7yu3v1nnqoxY4wZ8",
+        "type": "Entry",
+        "createdAt": "2022-06-29T09:44:29.204Z",
+        "updatedAt": "2022-06-29T09:49:36.572Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2022-06-29T09:49:36.572Z",
+        "firstPublishedAt": "2022-06-29T09:47:10.779Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "painting"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "The Lighthouse at Honfleur"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "67KV5GX3rof9mXGlZKazi8"
+            }
+          }
+        },
+        "artist": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4XUxEMR0ZJduR6fLFg0AF1"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Tag",
+              "id": "london"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Tag",
+              "id": "pointilism"
+            }
+          }
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "id": "3TWbKizc4JJtBkRzm4AW0y",
+        "type": "Entry",
+        "createdAt": "2022-06-29T17:46:08.993Z",
+        "updatedAt": "2022-06-29T17:47:42.542Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2022-06-29T17:47:42.542Z",
+        "firstPublishedAt": "2022-06-29T17:47:31.238Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "painting"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Bridge in London"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "2iUnlhTdXKrbScpkFHhtDr"
+            }
+          }
+        },
+        "artist": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6828i8nnC1sSjZigepib4z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "id": "6828i8nnC1sSjZigepib4z",
+        "type": "Entry",
+        "createdAt": "2022-06-29T17:47:19.889Z",
+        "updatedAt": "2022-06-29T17:47:23.400Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2022-06-29T17:47:23.400Z",
+        "firstPublishedAt": "2022-06-29T17:47:23.400Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "artist"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Jan Toorop"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Tag",
+              "id": "self-portrait"
+            }
+          }
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "id": "50THb84ehePzYZLbWwO5zB",
+        "type": "Entry",
+        "createdAt": "2022-06-29T19:06:49.739Z",
+        "updatedAt": "2022-06-29T19:09:03.239Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2022-06-29T19:09:03.239Z",
+        "firstPublishedAt": "2022-06-29T19:09:03.239Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "painting"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Self Portrait in a Straw Hat"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "bJ02pk6XJoAfBxGycflWk"
+            }
+          }
+        },
+        "artist": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2TuUpc2JmhvOp8EQc51AgJ"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "id": "2TuUpc2JmhvOp8EQc51AgJ",
+        "type": "Entry",
+        "createdAt": "2022-06-29T19:07:58.004Z",
+        "updatedAt": "2022-06-29T19:08:09.421Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2022-06-29T19:08:09.421Z",
+        "firstPublishedAt": "2022-06-29T19:08:09.421Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "artist"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Elisabeth Louise Vigée Le Brun"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Tag",
+              "id": "self-portrait"
+            }
+          }
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "id": "7utG9SvOwd87Z2bCQpHAFc",
+        "type": "Entry",
+        "createdAt": "2022-06-30T10:22:39.234Z",
+        "updatedAt": "2022-06-30T10:23:57.162Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2022-06-30T10:23:57.162Z",
+        "firstPublishedAt": "2022-06-30T10:23:48.026Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "painting"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Self Portrait"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "2rKEkc4TFL1ojEm4SXfbB0"
+            }
+          }
+        },
+        "artist": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3ptUPfTshsshHM4fbQuLta"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "id": "3ptUPfTshsshHM4fbQuLta",
+        "type": "Entry",
+        "createdAt": "2022-06-30T10:23:22.350Z",
+        "updatedAt": "2022-06-30T10:23:41.653Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2022-06-30T10:23:41.653Z",
+        "firstPublishedAt": "2022-06-30T10:23:41.653Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "artist"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "J.M.W Turner"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "id": "g3Szuz40mI8622VF3pn29",
+        "type": "Entry",
+        "createdAt": "2022-06-30T10:24:48.028Z",
+        "updatedAt": "2022-06-30T10:25:27.197Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2022-06-30T10:25:27.197Z",
+        "firstPublishedAt": "2022-06-30T10:25:27.197Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "painting"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "London from Greenwich Park"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "5iNzN7KjXb2wcTbAYCN8vF"
+            }
+          }
+        },
+        "artist": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3ptUPfTshsshHM4fbQuLta"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "id": "3aVyLJseDMBeeXAyBAgQxq",
+        "type": "Entry",
+        "createdAt": "2022-06-30T16:20:58.410Z",
+        "updatedAt": "2022-06-30T16:24:18.734Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2022-06-30T16:24:18.734Z",
+        "firstPublishedAt": "2022-06-30T16:24:18.734Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "painting"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Broek in Waterland"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "5V8wDndrYwJjpzFl0jmdaE"
+            }
+          }
+        },
+        "artist": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6828i8nnC1sSjZigepib4z"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "id": "67KV5GX3rof9mXGlZKazi8",
+        "type": "Asset",
+        "createdAt": "2022-06-29T09:46:19.580Z",
+        "updatedAt": "2022-06-29T09:47:02.616Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2022-06-29T09:47:02.616Z",
+        "firstPublishedAt": "2022-06-29T09:47:02.616Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "The Lighthouse at Honfleur"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/0tnk8bakd8wv/67KV5GX3rof9mXGlZKazi8/8167c922ee94d102f5159cdd92c8294c/68979753-2414-4f87-9111-8f7566d54077.jpg",
+            "details": {
+              "size": 126991,
+              "image": {
+                "width": 588,
+                "height": 479
+              }
+            },
+            "fileName": "68979753-2414-4f87-9111-8f7566d54077.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "id": "2iUnlhTdXKrbScpkFHhtDr",
+        "type": "Asset",
+        "createdAt": "2022-06-29T17:46:32.053Z",
+        "updatedAt": "2022-06-29T17:46:58.643Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2022-06-29T17:46:58.643Z",
+        "firstPublishedAt": "2022-06-29T17:46:58.643Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Bridge in London"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/0tnk8bakd8wv/2iUnlhTdXKrbScpkFHhtDr/9213530b37431963f99bacbfdc6938f2/1280px-1889_Toorop_Brug_in_Londen_anagoria.JPG",
+            "details": {
+              "size": 500381,
+              "image": {
+                "width": 1280,
+                "height": 960
+              }
+            },
+            "fileName": "1280px-1889_Toorop_Brug_in_Londen_anagoria.JPG",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "id": "29J8KLsFzwfsM6Rw50gM0a",
+        "type": "Asset",
+        "createdAt": "2022-06-29T17:51:15.527Z",
+        "updatedAt": "2022-06-29T17:51:37.219Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2022-06-29T17:51:37.219Z",
+        "firstPublishedAt": "2022-06-29T17:51:37.219Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Gloucester Mansion"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/0tnk8bakd8wv/29J8KLsFzwfsM6Rw50gM0a/c2a10e2f8b2c40bec7328d0cb278b8d7/gloucester-mansion-edward-hopper.jpeg",
+            "details": {
+              "size": 165435,
+              "image": {
+                "width": 1600,
+                "height": 1124
+              }
+            },
+            "fileName": "gloucester-mansion-edward-hopper.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "id": "bJ02pk6XJoAfBxGycflWk",
+        "type": "Asset",
+        "createdAt": "2022-06-29T19:06:55.099Z",
+        "updatedAt": "2022-06-29T19:07:45.371Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2022-06-29T19:07:45.371Z",
+        "firstPublishedAt": "2022-06-29T19:07:45.371Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Self Portrait in a Straw Hat"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/0tnk8bakd8wv/bJ02pk6XJoAfBxGycflWk/18ad1544c55d5cbd6678153b45d5fe79/n-1653-00-000030-hd.jpg",
+            "details": {
+              "size": 141093,
+              "image": {
+                "width": 778,
+                "height": 1080
+              }
+            },
+            "fileName": "n-1653-00-000030-hd.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "id": "2rKEkc4TFL1ojEm4SXfbB0",
+        "type": "Asset",
+        "createdAt": "2022-06-30T10:22:49.357Z",
+        "updatedAt": "2022-06-30T10:23:14.466Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2022-06-30T10:23:14.466Z",
+        "firstPublishedAt": "2022-06-30T10:23:14.466Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Turner Self Portrait"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/0tnk8bakd8wv/2rKEkc4TFL1ojEm4SXfbB0/1604ccb153df653e65eb36da16be7cd8/N00458_10.jpg",
+            "details": {
+              "size": 124314,
+              "image": {
+                "width": 1182,
+                "height": 1536
+              }
+            },
+            "fileName": "N00458_10.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "id": "5iNzN7KjXb2wcTbAYCN8vF",
+        "type": "Asset",
+        "createdAt": "2022-06-30T10:24:52.530Z",
+        "updatedAt": "2022-06-30T10:25:09.678Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2022-06-30T10:25:09.678Z",
+        "firstPublishedAt": "2022-06-30T10:25:09.678Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "London from Greenwich Park"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/0tnk8bakd8wv/5iNzN7KjXb2wcTbAYCN8vF/457fdbe616b2b24430c36bb2c2c417b2/N00483_10.jpg",
+            "details": {
+              "size": 136811,
+              "image": {
+                "width": 1536,
+                "height": 1145
+              }
+            },
+            "fileName": "N00483_10.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "id": "5V8wDndrYwJjpzFl0jmdaE",
+        "type": "Asset",
+        "createdAt": "2022-06-30T16:21:12.071Z",
+        "updatedAt": "2022-06-30T16:24:02.925Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2022-06-30T16:24:02.925Z",
+        "firstPublishedAt": "2022-06-30T16:24:02.925Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Broek in Waterland"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/0tnk8bakd8wv/5V8wDndrYwJjpzFl0jmdaE/e646f81464c572be67291014f7e68647/0_original.jpg",
+            "details": {
+              "size": 3609267,
+              "image": {
+                "width": 2300,
+                "height": 2016
+              }
+            },
+            "fileName": "0_original.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "2JoFWtvxiQFv5LmhX0SPvZ",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "1fc2f74a-3a70-46ce-a4fe-0bffc962b31b"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "createdAt": "2022-06-27T12:19:43Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedAt": "2022-06-27T12:19:43Z"
+      }
+    }
+  ],
+  "webhooks": [
+  ],
+  "roles": [
+    {
+      "name": "Author",
+      "description": "Allows editing of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": [
+            "create"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "read"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "update"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "create"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "read"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "update"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "2JrZpE63Le0c6N663y6biz",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "createdAt": "2022-06-27T12:19:44Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedAt": "2022-06-27T12:19:44Z"
+      }
+    },
+    {
+      "name": "Editor",
+      "description": "Allows editing, publishing and archiving of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "2JsynEWoaas7rA2HZOyLbB",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "createdAt": "2022-06-27T12:19:44Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedAt": "2022-06-27T12:19:44Z"
+      }
+    },
+    {
+      "name": "Freelancer",
+      "description": "Allows only editing of content they created themselves",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": [
+            "create"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "create"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "read"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              },
+              {
+                "equals": [
+                  {
+                    "doc": "sys.createdBy.sys.id"
+                  },
+                  "User.current()"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "update"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              },
+              {
+                "equals": [
+                  {
+                    "doc": "sys.createdBy.sys.id"
+                  },
+                  "User.current()"
+                ]
+              },
+              {
+                "paths": [
+                  {
+                    "doc": "fields.%.%"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "delete"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              },
+              {
+                "equals": [
+                  {
+                    "doc": "sys.createdBy.sys.id"
+                  },
+                  "User.current()"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "read"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              },
+              {
+                "equals": [
+                  {
+                    "doc": "sys.createdBy.sys.id"
+                  },
+                  "User.current()"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "update"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              },
+              {
+                "equals": [
+                  {
+                    "doc": "sys.createdBy.sys.id"
+                  },
+                  "User.current()"
+                ]
+              },
+              {
+                "paths": [
+                  {
+                    "doc": "fields.%.%"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "delete"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              },
+              {
+                "equals": [
+                  {
+                    "doc": "sys.createdBy.sys.id"
+                  },
+                  "User.current()"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "2Jt3YnrnuZUy747AdsRceL",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "createdAt": "2022-06-27T12:19:44Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedAt": "2022-06-27T12:19:44Z"
+      }
+    },
+    {
+      "name": "Translator",
+      "description": "Allows editing of localized fields in the specified language",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": [
+            "read"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "read"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "update"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              },
+              {
+                "paths": [
+                  {
+                    "doc": "fields.%.%"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "update"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              },
+              {
+                "paths": [
+                  {
+                    "doc": "fields.%.%"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "2JtCxWBzIUMzU3YW15xAan",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0tnk8bakd8wv"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "createdAt": "2022-06-27T12:19:44Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0q85kL9zVu8Vw90mCqd43K"
+          }
+        },
+        "updatedAt": "2022-06-27T12:19:44Z"
+      }
+    }
+  ]
+}
