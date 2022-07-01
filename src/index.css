@@ -135,21 +135,6 @@ small {
   display: block;
 }
 
-.hero {
-  align-items: center;
-  display: flex;
-  gap: 32px;
-  flex-direction: column;
-}
-
-.hero article {
-  width: 100%;
-}
-
-.hero article button:first-child {
-  margin-right: var(--spacing-m);
-}
-
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
@@ -177,17 +162,32 @@ small {
   object-fit: cover;
 }
 
-.hero > img {
+.river {
+  align-items: center;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
+
+.river article {
+  width: 100%;
+}
+
+.river article button:first-child {
+  margin-right: var(--spacing-m);
+}
+
+.river > img {
   width: 100%;
 }
 
 @media screen and (min-width: 40em) {
-  .hero {
+  .river {
     flex-direction: row;
   }
 
-  .hero article,
-  .hero > img {
+  .river article,
+  .river > img {
     width: 50%;
   }
 }

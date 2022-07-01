@@ -1,142 +1,94 @@
-import data from './data'
-import { Fragment, useState } from 'react'
+import useSWR from 'swr'
+import { useState } from 'react'
+import { Spinner } from '@contentful/f36-spinner'
+import { createClient } from 'contentful'
+import Painting from './Painting'
+import Content from './Content'
 
-// todo use contentful to return all the tags
-const dedup = (array) => {
-  return array.filter(function (item, pos) {
-    return array.indexOf(item) === pos
+const client = createClient({
+  space: '',
+  accessToken: '',
+})
+
+const fetcher = async () => {
+  const entryItems = await client.getEntries({ content_type: 'painting' })
+  const tagItems = await client.getTags()
+
+  const tags = tagItems.items.map((tag) => tag.name)
+
+  // Process the data from the Contentful REST API into a neater object
+  // If you want to avoid this step, consider using the GraphQL API
+  const entries = entryItems.items.map((entry) => {
+    const { fields } = entry
+    return {
+      name: fields.name,
+      image: fields.image.fields.file.url,
+      alt: fields.image.fields.title,
+      artist: fields.artist.fields.name,
+      tags: entry.metadata.tags
+        .map((t) => tagItems.items.find((ti) => ti.sys.id === t.sys.id))
+        .map((t) => t.name),
+    }
   })
-}
 
-// create unique list of tags
-const allTags = dedup(data.map((meta) => meta.tags).flat())
-
-const Painting = ({ title, description, tags, image }) => {
-  return (
-    <figure className="painting">
-      {/* <img className="image-thumb" src={image} alt="" /> */}
-      <img
-        className="image-thumb"
-        src={`https://picsum.photos/${(400 + Math.random() * 300) | 0}/${
-          (400 + Math.random() * 200) | 0
-        }.jpg?random=${Math.random()}`}
-        alt=""
-      />
-      <h4>{title}</h4>
-      <p>
-        <i>Vincent Van Gogh</i>
-      </p>
-    </figure>
-  )
+  return { entries, tags }
 }
 
 function App() {
   const [selectedTags, setSelectedTags] = useState([])
+  const { data, error } = useSWR('contentful', fetcher)
+
+  if (error) {
+    console.log(error)
+    return <div>failed to load </div>
+  }
+  if (!data) return <Spinner size="large" />
+
+  const { tags, entries } = data
 
   const onTagSelected = (e) => {
     const { name: tag, checked } = e.target
     const index = selectedTags.indexOf(tag)
 
-    // TODO improve 😅
-    if (checked) {
-      if (index === -1) {
-        selectedTags.push(tag)
-      }
-    } else {
+    if (checked && index === -1) {
+      selectedTags.push(tag)
+    } else if (index !== -1) {
       // if the tag is already in the array, remove it
-      if (index !== -1) {
-        selectedTags.splice(index, 1)
-      }
+      selectedTags.splice(index, 1)
     }
-
     setSelectedTags(selectedTags.slice())
   }
 
-  const checkboxes = allTags.map((tag) => {
+  const checkboxes = tags.map((tag) => {
     return (
-      <Fragment key={tag}>
-        <input
-          type="checkbox"
-          className="checkbox"
-          onChange={onTagSelected}
-          name={tag}
-          id={tag}
-        />
-        <label htmlFor={tag}>{tag}</label>
-      </Fragment>
+      <label htmlFor={tag} key={tag}>
+        <input type="checkbox" onChange={onTagSelected} name={tag} id={tag} />
+        {tag}
+      </label>
     )
   })
 
-  const paintings = data
+  const paintings = entries
     .filter((painting) => {
       if (selectedTags.length === 0) return true
       const found = painting.tags.some((r) => selectedTags.includes(r))
       return found
     })
-    .map(({ title, description, tags, image }, i) => {
+    .map(({ name, image, alt, artist }, i) => {
       return (
         <Painting
           key={i}
-          title={title}
-          description={description}
-          tags={tags}
+          name={name}
           image={image}
+          alt={alt}
+          artist={artist}
         ></Painting>
       )
     })
 
   return (
     <main>
-      <h1>Heading 1</h1>
-      <h2>Heading 2</h2>
-      <h3>Heading 3</h3>
-      <h4>Heading 4</h4>
-      <h5>Heading 5</h5>
-      <p>
-        This file uses values sourced from the{' '}
-        <a href="https://f36.contentful.com/">Forma36 tokens</a>.
-      </p>
-
-      <p>
-        This a <button>Button</button>
-      </p>
-
-      <p>
-        <button className="button-large">Large button</button>
-
-        <button className="button-large button-secondary">
-          Large secondary button
-        </button>
-      </p>
-
-      <section className="hero">
-        <img
-          src="https://images.ctfassets.net/p39nycxzit31/U3SK6xjRhpQRa9vJy8nyM/b57a359f6fed8bf3e3b8cc7af66bb896/Hero.png?w=2368&h=1776&q=50&fm=webp"
-          alt=""
-        />
-        <article>
-          <h1>
-            <small>React + Contentful</small>
-            React Contentful Homepage Starter
-          </h1>
-          <p>
-            Clone, edit, and customize this starter to build your own React app.
-          </p>
-          <div className="buttons">
-            <button className="button-large">
-              <a href="https://github.com/gatsbyjs/gatsby-starter-contentful-homepage#deploy-your-site">
-                Read more
-              </a>
-            </button>
-
-            <button className="button-large button-secondary">
-              <a href="https://github.com/gatsbyjs/gatsby-starter-contentful-homepage">
-                GitHub
-              </a>
-            </button>
-          </div>
-        </article>
-      </section>
+      <Content />
       <p>
         <b>Tags</b>:{checkboxes}
       </p>

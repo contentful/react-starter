@@ -13,7 +13,7 @@ if (!CONTENTFUL_SPACE_ID || !CONTENTFUL_MANAGEMENT_TOKEN) {
 }
 
 spaceImport({
-  contentFile: './contentful-export.json',
+  contentFile: './export.json',
   spaceId: CONTENTFUL_SPACE_ID,
   managementToken: CONTENTFUL_MANAGEMENT_TOKEN,
 })
