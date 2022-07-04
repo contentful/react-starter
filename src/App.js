@@ -6,8 +6,8 @@ import Painting from './Painting'
 import Content from './Content'
 
 const client = createClient({
-  space: '',
-  accessToken: '',
+  space: process.env.CONTENTFUL_SPACE_ID,
+  accessToken: process.env.CONTENTFUL_MANAGEMENT_TOKEN,
 })
 
 const fetcher = async () => {
