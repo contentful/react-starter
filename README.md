@@ -1,40 +1,58 @@
-# Getting Started with Create React App
+# Getting Started with React and Contentful
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Fetch your data from Contentful, manage it in React
+- Uses the [Contentful JavaScript SDK](https://www.npmjs.com/package/contentful) and [`swr`](https://swr.vercel.app/) to fetch your data.
+
+## Quick Start
+
+### Step 1. Get the source code and install dependencies
+
+Clone the repository.
+
+```bash
+git clone https://github.com/contentful/react-starter.git
+```
+
+Install dependencies.
+
+```bash
+npm install
+```
+
+### Step 2. Create an environment file
+
+1. Rename the `.env.example` at the root of your project to `.env` (so it will be ignored by Git)
+2. Find your Contentful [Space ID](https://www.contentful.com/help/find-space-id/), and [Content Management API](https://www.contentful.com/developers/docs/references/content-management-api/) Access Token
+3. Replace `YOUR_SPACE_ID` and `YOUR_ACCESS_TOKEN` with the correct values.
+
+### Step 3. Import our content model
+
+The project comes with a Contentful set up command that imports the required content model and adds sample content to your space.
+
+Run the following command to import the content model.
+
+```bash
+npx cross-env npm run setup
+```
+
+### Step 4. Run the project locally
+
+```bash
+npm start
+```
+
+Open [http://localhost:1234](http://localhost:1234) to view it in your browser.
+
+The page will reload when you make changes.
 
 ## Available Scripts
 
-In the project directory, you can run:
+This project uses Parcel. In the project directory, you can run:
 
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Builds the app for production to the `dist` folder.\
