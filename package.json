@@ -11,7 +11,7 @@
   },
   "scripts": {
     "start": "parcel ./public/index.html",
-    "build": "parcel build"
+    "build": "parcel build ./public/index.html"
   },
   "browserslist": [
     "last 1 chrome version",
