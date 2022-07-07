@@ -12,7 +12,7 @@
         "id": "painting",
         "type": "ContentType",
         "createdAt": "2022-06-29T09:41:39.883Z",
-        "updatedAt": "2022-06-29T09:43:16.060Z",
+        "updatedAt": "2022-07-07T17:37:58.810Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -20,8 +20,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 3,
-        "publishedAt": "2022-06-29T09:43:16.060Z",
+        "publishedVersion": 5,
+        "publishedAt": "2022-07-07T17:37:58.810Z",
         "firstPublishedAt": "2022-06-29T09:41:40.228Z",
         "createdBy": {
           "sys": {
@@ -37,8 +37,8 @@
             "id": "0q85kL9zVu8Vw90mCqd43K"
           }
         },
-        "publishedCounter": 2,
-        "version": 4,
+        "publishedCounter": 3,
+        "version": 6,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -100,7 +100,7 @@
         "id": "artist",
         "type": "ContentType",
         "createdAt": "2022-06-29T09:43:40.044Z",
-        "updatedAt": "2022-06-29T09:43:40.387Z",
+        "updatedAt": "2022-07-07T17:37:59.407Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -108,8 +108,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 1,
-        "publishedAt": "2022-06-29T09:43:40.387Z",
+        "publishedVersion": 3,
+        "publishedAt": "2022-07-07T17:37:59.407Z",
         "firstPublishedAt": "2022-06-29T09:43:40.387Z",
         "createdBy": {
           "sys": {
@@ -125,8 +125,8 @@
             "id": "0q85kL9zVu8Vw90mCqd43K"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 4,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -166,7 +166,7 @@
         "id": "france",
         "type": "Tag",
         "createdAt": "2022-06-29T09:47:54.407Z",
-        "updatedAt": "2022-06-29T09:47:54.407Z",
+        "updatedAt": "2022-07-07T17:38:00.016Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -188,7 +188,7 @@
             "id": "0q85kL9zVu8Vw90mCqd43K"
           }
         },
-        "version": 1,
+        "version": 2,
         "visibility": "public"
       },
       "name": "France"
@@ -202,10 +202,10 @@
             "id": "0tnk8bakd8wv"
           }
         },
-        "id": "pointilism",
+        "id": "self-portrait",
         "type": "Tag",
-        "createdAt": "2022-06-29T09:48:02.528Z",
-        "updatedAt": "2022-06-29T09:48:02.528Z",
+        "createdAt": "2022-06-29T19:08:45.301Z",
+        "updatedAt": "2022-07-07T17:37:59.943Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -227,10 +227,10 @@
             "id": "0q85kL9zVu8Vw90mCqd43K"
           }
         },
-        "version": 1,
-        "visibility": "private"
+        "version": 2,
+        "visibility": "public"
       },
-      "name": "Pointilism"
+      "name": "Self Portrait"
     },
     {
       "sys": {
@@ -243,8 +243,8 @@
         },
         "id": "london",
         "type": "Tag",
-        "createdAt": "2022-06-29T09:48:32.916Z",
-        "updatedAt": "2022-06-29T09:48:32.916Z",
+        "createdAt": "2022-07-01T12:42:33.183Z",
+        "updatedAt": "2022-07-07T17:38:00.092Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -266,8 +266,8 @@
             "id": "0q85kL9zVu8Vw90mCqd43K"
           }
         },
-        "version": 1,
-        "visibility": "private"
+        "version": 2,
+        "visibility": "public"
       },
       "name": "London"
     },
@@ -280,10 +280,10 @@
             "id": "0tnk8bakd8wv"
           }
         },
-        "id": "self-portrait",
+        "id": "pointilism",
         "type": "Tag",
-        "createdAt": "2022-06-29T19:08:45.301Z",
-        "updatedAt": "2022-06-29T19:08:45.301Z",
+        "createdAt": "2022-07-01T12:43:37.489Z",
+        "updatedAt": "2022-07-07T17:38:00.101Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -305,10 +305,10 @@
             "id": "0q85kL9zVu8Vw90mCqd43K"
           }
         },
-        "version": 1,
+        "version": 2,
         "visibility": "public"
       },
-      "name": "Self Portrait"
+      "name": "Pointilism"
     }
   ],
   "editorInterfaces": [
@@ -323,7 +323,7 @@
             "linkType": "Space"
           }
         },
-        "version": 4,
+        "version": 6,
         "createdAt": "2022-06-29T09:41:40.292Z",
         "createdBy": {
           "sys": {
@@ -332,7 +332,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2022-06-29T09:43:16.865Z",
+        "updatedAt": "2022-07-07T17:38:01.094Z",
         "updatedBy": {
           "sys": {
             "id": "0q85kL9zVu8Vw90mCqd43K",
@@ -384,7 +384,7 @@
             "linkType": "Space"
           }
         },
-        "version": 2,
+        "version": 4,
         "createdAt": "2022-06-29T09:43:40.578Z",
         "createdBy": {
           "sys": {
@@ -393,7 +393,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2022-06-29T09:43:40.965Z",
+        "updatedAt": "2022-07-07T17:38:00.792Z",
         "updatedBy": {
           "sys": {
             "id": "0q85kL9zVu8Vw90mCqd43K",
@@ -442,7 +442,7 @@
         "id": "4XUxEMR0ZJduR6fLFg0AF1",
         "type": "Entry",
         "createdAt": "2022-06-29T09:44:10.989Z",
-        "updatedAt": "2022-06-29T09:44:20.715Z",
+        "updatedAt": "2022-07-07T17:38:10.312Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -450,8 +450,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 2,
-        "publishedAt": "2022-06-29T09:44:20.715Z",
+        "publishedVersion": 4,
+        "publishedAt": "2022-07-07T17:38:10.312Z",
         "firstPublishedAt": "2022-06-29T09:44:20.715Z",
         "createdBy": {
           "sys": {
@@ -467,8 +467,8 @@
             "id": "0q85kL9zVu8Vw90mCqd43K"
           }
         },
-        "publishedCounter": 1,
-        "version": 3,
+        "publishedCounter": 2,
+        "version": 5,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -493,6 +493,20 @@
     {
       "metadata": {
         "tags": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Tag",
+              "id": "france"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Tag",
+              "id": "pointilism"
+            }
+          }
         ]
       },
       "sys": {
@@ -506,7 +520,7 @@
         "id": "5CHMsK7yu3v1nnqoxY4wZ8",
         "type": "Entry",
         "createdAt": "2022-06-29T09:44:29.204Z",
-        "updatedAt": "2022-06-29T09:49:36.572Z",
+        "updatedAt": "2022-07-07T17:40:41.209Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -514,8 +528,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 7,
-        "publishedAt": "2022-06-29T09:49:36.572Z",
+        "publishedVersion": 14,
+        "publishedAt": "2022-07-07T17:40:41.209Z",
         "firstPublishedAt": "2022-06-29T09:47:10.779Z",
         "createdBy": {
           "sys": {
@@ -531,8 +545,8 @@
             "id": "0q85kL9zVu8Vw90mCqd43K"
           }
         },
-        "publishedCounter": 2,
-        "version": 8,
+        "publishedCounter": 5,
+        "version": 15,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -602,7 +616,7 @@
         "id": "3TWbKizc4JJtBkRzm4AW0y",
         "type": "Entry",
         "createdAt": "2022-06-29T17:46:08.993Z",
-        "updatedAt": "2022-06-29T17:47:42.542Z",
+        "updatedAt": "2022-07-07T17:38:13.275Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -610,8 +624,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 6,
-        "publishedAt": "2022-06-29T17:47:42.542Z",
+        "publishedVersion": 14,
+        "publishedAt": "2022-07-07T17:38:13.275Z",
         "firstPublishedAt": "2022-06-29T17:47:31.238Z",
         "createdBy": {
           "sys": {
@@ -627,8 +641,8 @@
             "id": "0q85kL9zVu8Vw90mCqd43K"
           }
         },
-        "publishedCounter": 2,
-        "version": 7,
+        "publishedCounter": 6,
+        "version": 15,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -684,7 +698,7 @@
         "id": "6828i8nnC1sSjZigepib4z",
         "type": "Entry",
         "createdAt": "2022-06-29T17:47:19.889Z",
-        "updatedAt": "2022-06-29T17:47:23.400Z",
+        "updatedAt": "2022-07-07T17:38:11.051Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -692,8 +706,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 2,
-        "publishedAt": "2022-06-29T17:47:23.400Z",
+        "publishedVersion": 4,
+        "publishedAt": "2022-07-07T17:38:11.051Z",
         "firstPublishedAt": "2022-06-29T17:47:23.400Z",
         "createdBy": {
           "sys": {
@@ -709,8 +723,8 @@
             "id": "0q85kL9zVu8Vw90mCqd43K"
           }
         },
-        "publishedCounter": 1,
-        "version": 3,
+        "publishedCounter": 2,
+        "version": 5,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -755,7 +769,7 @@
         "id": "50THb84ehePzYZLbWwO5zB",
         "type": "Entry",
         "createdAt": "2022-06-29T19:06:49.739Z",
-        "updatedAt": "2022-06-29T19:09:03.239Z",
+        "updatedAt": "2022-07-07T17:38:12.941Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -763,8 +777,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 4,
-        "publishedAt": "2022-06-29T19:09:03.239Z",
+        "publishedVersion": 6,
+        "publishedAt": "2022-07-07T17:38:12.941Z",
         "firstPublishedAt": "2022-06-29T19:09:03.239Z",
         "createdBy": {
           "sys": {
@@ -780,8 +794,8 @@
             "id": "0q85kL9zVu8Vw90mCqd43K"
           }
         },
-        "publishedCounter": 1,
-        "version": 5,
+        "publishedCounter": 2,
+        "version": 7,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -837,7 +851,7 @@
         "id": "2TuUpc2JmhvOp8EQc51AgJ",
         "type": "Entry",
         "createdAt": "2022-06-29T19:07:58.004Z",
-        "updatedAt": "2022-06-29T19:08:09.421Z",
+        "updatedAt": "2022-07-07T17:38:11.368Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -845,8 +859,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 2,
-        "publishedAt": "2022-06-29T19:08:09.421Z",
+        "publishedVersion": 4,
+        "publishedAt": "2022-07-07T17:38:11.368Z",
         "firstPublishedAt": "2022-06-29T19:08:09.421Z",
         "createdBy": {
           "sys": {
@@ -862,8 +876,8 @@
             "id": "0q85kL9zVu8Vw90mCqd43K"
           }
         },
-        "publishedCounter": 1,
-        "version": 3,
+        "publishedCounter": 2,
+        "version": 5,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -908,7 +922,7 @@
         "id": "7utG9SvOwd87Z2bCQpHAFc",
         "type": "Entry",
         "createdAt": "2022-06-30T10:22:39.234Z",
-        "updatedAt": "2022-06-30T10:23:57.162Z",
+        "updatedAt": "2022-07-07T17:38:12.610Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -916,8 +930,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 6,
-        "publishedAt": "2022-06-30T10:23:57.162Z",
+        "publishedVersion": 8,
+        "publishedAt": "2022-07-07T17:38:12.610Z",
         "firstPublishedAt": "2022-06-30T10:23:48.026Z",
         "createdBy": {
           "sys": {
@@ -933,8 +947,8 @@
             "id": "0q85kL9zVu8Vw90mCqd43K"
           }
         },
-        "publishedCounter": 2,
-        "version": 7,
+        "publishedCounter": 3,
+        "version": 9,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -990,7 +1004,7 @@
         "id": "3ptUPfTshsshHM4fbQuLta",
         "type": "Entry",
         "createdAt": "2022-06-30T10:23:22.350Z",
-        "updatedAt": "2022-06-30T10:23:41.653Z",
+        "updatedAt": "2022-07-07T17:38:11.667Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -998,8 +1012,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 2,
-        "publishedAt": "2022-06-30T10:23:41.653Z",
+        "publishedVersion": 4,
+        "publishedAt": "2022-07-07T17:38:11.667Z",
         "firstPublishedAt": "2022-06-30T10:23:41.653Z",
         "createdBy": {
           "sys": {
@@ -1015,8 +1029,8 @@
             "id": "0q85kL9zVu8Vw90mCqd43K"
           }
         },
-        "publishedCounter": 1,
-        "version": 3,
+        "publishedCounter": 2,
+        "version": 5,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1054,7 +1068,7 @@
         "id": "g3Szuz40mI8622VF3pn29",
         "type": "Entry",
         "createdAt": "2022-06-30T10:24:48.028Z",
-        "updatedAt": "2022-06-30T10:25:27.197Z",
+        "updatedAt": "2022-07-07T17:38:11.960Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1062,8 +1076,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 4,
-        "publishedAt": "2022-06-30T10:25:27.197Z",
+        "publishedVersion": 8,
+        "publishedAt": "2022-07-07T17:38:11.960Z",
         "firstPublishedAt": "2022-06-30T10:25:27.197Z",
         "createdBy": {
           "sys": {
@@ -1079,8 +1093,8 @@
             "id": "0q85kL9zVu8Vw90mCqd43K"
           }
         },
-        "publishedCounter": 1,
-        "version": 5,
+        "publishedCounter": 3,
+        "version": 9,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1123,6 +1137,13 @@
     {
       "metadata": {
         "tags": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Tag",
+              "id": "pointilism"
+            }
+          }
         ]
       },
       "sys": {
@@ -1136,7 +1157,7 @@
         "id": "3aVyLJseDMBeeXAyBAgQxq",
         "type": "Entry",
         "createdAt": "2022-06-30T16:20:58.410Z",
-        "updatedAt": "2022-06-30T16:24:18.734Z",
+        "updatedAt": "2022-07-07T17:39:43.802Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1144,8 +1165,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 3,
-        "publishedAt": "2022-06-30T16:24:18.734Z",
+        "publishedVersion": 9,
+        "publishedAt": "2022-07-07T17:39:43.802Z",
         "firstPublishedAt": "2022-06-30T16:24:18.734Z",
         "createdBy": {
           "sys": {
@@ -1161,8 +1182,8 @@
             "id": "0q85kL9zVu8Vw90mCqd43K"
           }
         },
-        "publishedCounter": 1,
-        "version": 4,
+        "publishedCounter": 4,
+        "version": 10,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1220,7 +1241,7 @@
         "id": "67KV5GX3rof9mXGlZKazi8",
         "type": "Asset",
         "createdAt": "2022-06-29T09:46:19.580Z",
-        "updatedAt": "2022-06-29T09:47:02.616Z",
+        "updatedAt": "2022-07-07T17:38:06.971Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1228,8 +1249,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 4,
-        "publishedAt": "2022-06-29T09:47:02.616Z",
+        "publishedVersion": 7,
+        "publishedAt": "2022-07-07T17:38:06.971Z",
         "firstPublishedAt": "2022-06-29T09:47:02.616Z",
         "createdBy": {
           "sys": {
@@ -1245,8 +1266,8 @@
             "id": "0q85kL9zVu8Vw90mCqd43K"
           }
         },
-        "publishedCounter": 1,
-        "version": 5,
+        "publishedCounter": 2,
+        "version": 8,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1264,7 +1285,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/0tnk8bakd8wv/67KV5GX3rof9mXGlZKazi8/8167c922ee94d102f5159cdd92c8294c/68979753-2414-4f87-9111-8f7566d54077.jpg",
+            "url": "//images.ctfassets.net/0tnk8bakd8wv/67KV5GX3rof9mXGlZKazi8/0a2d54fbed26556cf1c9955e5a014b3f/68979753-2414-4f87-9111-8f7566d54077.jpg",
             "details": {
               "size": 126991,
               "image": {
@@ -1294,7 +1315,7 @@
         "id": "2iUnlhTdXKrbScpkFHhtDr",
         "type": "Asset",
         "createdAt": "2022-06-29T17:46:32.053Z",
-        "updatedAt": "2022-06-29T17:46:58.643Z",
+        "updatedAt": "2022-07-07T17:38:07.302Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1302,8 +1323,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 4,
-        "publishedAt": "2022-06-29T17:46:58.643Z",
+        "publishedVersion": 7,
+        "publishedAt": "2022-07-07T17:38:07.302Z",
         "firstPublishedAt": "2022-06-29T17:46:58.643Z",
         "createdBy": {
           "sys": {
@@ -1319,8 +1340,8 @@
             "id": "0q85kL9zVu8Vw90mCqd43K"
           }
         },
-        "publishedCounter": 1,
-        "version": 5,
+        "publishedCounter": 2,
+        "version": 8,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1338,7 +1359,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/0tnk8bakd8wv/2iUnlhTdXKrbScpkFHhtDr/9213530b37431963f99bacbfdc6938f2/1280px-1889_Toorop_Brug_in_Londen_anagoria.JPG",
+            "url": "//images.ctfassets.net/0tnk8bakd8wv/2iUnlhTdXKrbScpkFHhtDr/b90bc1cacb58afac8ccf6fdc440d401b/1280px-1889_Toorop_Brug_in_Londen_anagoria.JPG",
             "details": {
               "size": 500381,
               "image": {
@@ -1368,7 +1389,7 @@
         "id": "29J8KLsFzwfsM6Rw50gM0a",
         "type": "Asset",
         "createdAt": "2022-06-29T17:51:15.527Z",
-        "updatedAt": "2022-06-29T17:51:37.219Z",
+        "updatedAt": "2022-07-07T17:38:07.666Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1376,8 +1397,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 4,
-        "publishedAt": "2022-06-29T17:51:37.219Z",
+        "publishedVersion": 7,
+        "publishedAt": "2022-07-07T17:38:07.666Z",
         "firstPublishedAt": "2022-06-29T17:51:37.219Z",
         "createdBy": {
           "sys": {
@@ -1393,8 +1414,8 @@
             "id": "0q85kL9zVu8Vw90mCqd43K"
           }
         },
-        "publishedCounter": 1,
-        "version": 5,
+        "publishedCounter": 2,
+        "version": 8,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1412,7 +1433,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/0tnk8bakd8wv/29J8KLsFzwfsM6Rw50gM0a/c2a10e2f8b2c40bec7328d0cb278b8d7/gloucester-mansion-edward-hopper.jpeg",
+            "url": "//images.ctfassets.net/0tnk8bakd8wv/29J8KLsFzwfsM6Rw50gM0a/e70fb3dc1253b36074b63c57b6de09fb/gloucester-mansion-edward-hopper.jpeg",
             "details": {
               "size": 165435,
               "image": {
@@ -1442,7 +1463,7 @@
         "id": "bJ02pk6XJoAfBxGycflWk",
         "type": "Asset",
         "createdAt": "2022-06-29T19:06:55.099Z",
-        "updatedAt": "2022-06-29T19:07:45.371Z",
+        "updatedAt": "2022-07-07T17:38:08.075Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1450,8 +1471,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 4,
-        "publishedAt": "2022-06-29T19:07:45.371Z",
+        "publishedVersion": 7,
+        "publishedAt": "2022-07-07T17:38:08.075Z",
         "firstPublishedAt": "2022-06-29T19:07:45.371Z",
         "createdBy": {
           "sys": {
@@ -1467,8 +1488,8 @@
             "id": "0q85kL9zVu8Vw90mCqd43K"
           }
         },
-        "publishedCounter": 1,
-        "version": 5,
+        "publishedCounter": 2,
+        "version": 8,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1486,7 +1507,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/0tnk8bakd8wv/bJ02pk6XJoAfBxGycflWk/18ad1544c55d5cbd6678153b45d5fe79/n-1653-00-000030-hd.jpg",
+            "url": "//images.ctfassets.net/0tnk8bakd8wv/bJ02pk6XJoAfBxGycflWk/b0b982e32ab025478de2bdb14d6ba65f/n-1653-00-000030-hd.jpg",
             "details": {
               "size": 141093,
               "image": {
@@ -1516,7 +1537,7 @@
         "id": "2rKEkc4TFL1ojEm4SXfbB0",
         "type": "Asset",
         "createdAt": "2022-06-30T10:22:49.357Z",
-        "updatedAt": "2022-06-30T10:23:14.466Z",
+        "updatedAt": "2022-07-07T17:38:08.373Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1524,8 +1545,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 4,
-        "publishedAt": "2022-06-30T10:23:14.466Z",
+        "publishedVersion": 7,
+        "publishedAt": "2022-07-07T17:38:08.373Z",
         "firstPublishedAt": "2022-06-30T10:23:14.466Z",
         "createdBy": {
           "sys": {
@@ -1541,8 +1562,8 @@
             "id": "0q85kL9zVu8Vw90mCqd43K"
           }
         },
-        "publishedCounter": 1,
-        "version": 5,
+        "publishedCounter": 2,
+        "version": 8,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1560,7 +1581,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/0tnk8bakd8wv/2rKEkc4TFL1ojEm4SXfbB0/1604ccb153df653e65eb36da16be7cd8/N00458_10.jpg",
+            "url": "//images.ctfassets.net/0tnk8bakd8wv/2rKEkc4TFL1ojEm4SXfbB0/50b31caf489c08e4eea1df4c884b1193/N00458_10.jpg",
             "details": {
               "size": 124314,
               "image": {
@@ -1590,7 +1611,7 @@
         "id": "5iNzN7KjXb2wcTbAYCN8vF",
         "type": "Asset",
         "createdAt": "2022-06-30T10:24:52.530Z",
-        "updatedAt": "2022-06-30T10:25:09.678Z",
+        "updatedAt": "2022-07-07T17:38:08.666Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1598,8 +1619,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 4,
-        "publishedAt": "2022-06-30T10:25:09.678Z",
+        "publishedVersion": 7,
+        "publishedAt": "2022-07-07T17:38:08.666Z",
         "firstPublishedAt": "2022-06-30T10:25:09.678Z",
         "createdBy": {
           "sys": {
@@ -1615,8 +1636,8 @@
             "id": "0q85kL9zVu8Vw90mCqd43K"
           }
         },
-        "publishedCounter": 1,
-        "version": 5,
+        "publishedCounter": 2,
+        "version": 8,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1634,7 +1655,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/0tnk8bakd8wv/5iNzN7KjXb2wcTbAYCN8vF/457fdbe616b2b24430c36bb2c2c417b2/N00483_10.jpg",
+            "url": "//images.ctfassets.net/0tnk8bakd8wv/5iNzN7KjXb2wcTbAYCN8vF/6de7f19b6ad87c2cb827e52e1a4f87ba/N00483_10.jpg",
             "details": {
               "size": 136811,
               "image": {
@@ -1664,7 +1685,7 @@
         "id": "5V8wDndrYwJjpzFl0jmdaE",
         "type": "Asset",
         "createdAt": "2022-06-30T16:21:12.071Z",
-        "updatedAt": "2022-06-30T16:24:02.925Z",
+        "updatedAt": "2022-07-07T17:38:08.965Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1672,8 +1693,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 4,
-        "publishedAt": "2022-06-30T16:24:02.925Z",
+        "publishedVersion": 7,
+        "publishedAt": "2022-07-07T17:38:08.965Z",
         "firstPublishedAt": "2022-06-30T16:24:02.925Z",
         "createdBy": {
           "sys": {
@@ -1689,8 +1710,8 @@
             "id": "0q85kL9zVu8Vw90mCqd43K"
           }
         },
-        "publishedCounter": 1,
-        "version": 5,
+        "publishedCounter": 2,
+        "version": 8,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1708,7 +1729,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/0tnk8bakd8wv/5V8wDndrYwJjpzFl0jmdaE/e646f81464c572be67291014f7e68647/0_original.jpg",
+            "url": "//images.ctfassets.net/0tnk8bakd8wv/5V8wDndrYwJjpzFl0jmdaE/052037a351a62de45f3d438b6505eeea/0_original.jpg",
             "details": {
               "size": 3609267,
               "image": {

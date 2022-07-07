@@ -1,3 +1,4 @@
+require('dotenv').config()
 const spaceImport = require('contentful-import')
 
 const { CONTENTFUL_SPACE_ID, CONTENTFUL_MANAGEMENT_TOKEN } = process.env
@@ -6,14 +7,13 @@ if (!CONTENTFUL_SPACE_ID || !CONTENTFUL_MANAGEMENT_TOKEN) {
   throw new Error(
     [
       'Parameters missing...',
-      'Please run the setup command as follows',
-      'CONTENTFUL_SPACE_ID=XXX CONTENTFUL_MANAGEMENT_TOKEN=CFPAT-XXX npm run setup',
+      'Please ensure your .env file exists and contains the variables CONTENTFUL_SPACE_ID and CONTENTFUL_MANAGEMENT_TOKEN',
     ].join('\n')
   )
 }
 
 spaceImport({
-  contentFile: './export.json',
+  contentFile: './contentful/export.json',
   spaceId: CONTENTFUL_SPACE_ID,
   managementToken: CONTENTFUL_MANAGEMENT_TOKEN,
 })
