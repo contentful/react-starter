@@ -1,11 +1,11 @@
+const laptop = new URL('./assets/resources.svg', import.meta.url)
+const logo = new URL('./assets/react-contentful.png', import.meta.url)
+
 const Content = () => {
   return (
     <>
       <section className="river">
-        <img
-          src="https://images.ctfassets.net/p39nycxzit31/U3SK6xjRhpQRa9vJy8nyM/b57a359f6fed8bf3e3b8cc7af66bb896/Hero.png?w=2368&h=1776&q=50&fm=webp"
-          alt=""
-        />
+        <img src={laptop} alt="Laptop with a play button" aria-hidden="true" />
         <article>
           <h1>
             <small>React + Contentful</small>
@@ -16,25 +16,24 @@ const Content = () => {
           </p>
           <div className="buttons">
             <button className="button-large">
-              <a href="https://github.com/gatsbyjs/gatsby-starter-contentful-homepage#deploy-your-site">
+              <a href="https://www.contentful.com/contentful-and-javascript-tutorial">
                 Read more
               </a>
             </button>
 
             <button className="button-large button-secondary">
-              <a href="https://github.com/gatsbyjs/gatsby-starter-contentful-homepage">
-                GitHub
-              </a>
+              <a href="https://github.com/contentful/react-starter">GitHub</a>
             </button>
           </div>
         </article>
       </section>
       <section className="river">
+        <img src={logo} alt="React + Contentful" aria-hidden="true" />
         <article>
           <h2>Get started using React</h2>
           <p>
-            Use the checkboxes below to filter paintings based on their tags in
-            Contentful.
+            Filter paintings based on their Contentful tag using the checkboxes
+            below.
           </p>
 
           <ul>
@@ -44,10 +43,6 @@ const Content = () => {
             </li>
           </ul>
         </article>
-        <img
-          src="https://images.ctfassets.net/p39nycxzit31/U3SK6xjRhpQRa9vJy8nyM/b57a359f6fed8bf3e3b8cc7af66bb896/Hero.png?w=2368&h=1776&q=50&fm=webp"
-          alt=""
-        />
       </section>
     </>
   )
