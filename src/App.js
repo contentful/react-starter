@@ -90,7 +90,7 @@ function App() {
     <main>
       <Content />
       <p className="tags">
-        <b>Tags</b>:{checkboxes}
+        👉<b>Tags</b>:{checkboxes}
       </p>
       <div className="grid">{paintings}</div>
     </main>

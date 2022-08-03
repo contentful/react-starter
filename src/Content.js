@@ -1,5 +1,5 @@
 const laptop = new URL('./assets/resources.svg', import.meta.url)
-const logo = new URL('./assets/react-contentful.png', import.meta.url)
+const screens = new URL('./assets/screens.svg', import.meta.url)
 
 const Content = () => {
   return (
@@ -28,7 +28,7 @@ const Content = () => {
         </article>
       </section>
       <section className="river">
-        <img src={logo} alt="React + Contentful" aria-hidden="true" />
+        <img src={screens} alt="React + Contentful" aria-hidden="true" />
         <article>
           <h2>Get started using React</h2>
           <p>
