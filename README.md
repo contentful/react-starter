@@ -51,8 +51,8 @@ This project uses Parcel. In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 
 ### `npm run build`
 
-Builds the app for production to the `dist` folder.\
+Builds the app for production to the `dist` folder.
